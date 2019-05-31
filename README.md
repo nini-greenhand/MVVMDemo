@@ -1,0 +1,4 @@
+# MVVMDemo
+自己写的简单的Demo,用于对MVVM的理解
+项目中用到的API是豆瓣电影的公共API
+项目中有其他的问题请联系本人邮箱niqingshan674@126.com
