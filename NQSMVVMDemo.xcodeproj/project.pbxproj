@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F65C05F6E6113E46D71EDAE /* libPods-NQSMVVMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE073C21F9AD61CED2A5B713 /* libPods-NQSMVVMDemo.a */; };
+		AC040ED8229F68A400788F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC040ED7229F68A400788F67 /* AppDelegate.m */; };
+		AC040EDB229F68A400788F67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC040EDA229F68A400788F67 /* ViewController.m */; };
+		AC040EDE229F68A400788F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC040EDC229F68A400788F67 /* Main.storyboard */; };
+		AC040EE0229F68A600788F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC040EDF229F68A600788F67 /* Assets.xcassets */; };
+		AC040EE3229F68A600788F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC040EE1229F68A600788F67 /* LaunchScreen.storyboard */; };
+		AC040EE6229F68A600788F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC040EE5229F68A600788F67 /* main.m */; };
+		AC040EF2229F7C4A00788F67 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC040EF1229F7C4A00788F67 /* BaseModel.m */; };
+		AC040EF7229FAA7D00788F67 /* NQMoveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC040EF5229FAA7D00788F67 /* NQMoveCell.m */; };
+		AC040EF8229FAA7D00788F67 /* NQMoveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC040EF6229FAA7D00788F67 /* NQMoveCell.xib */; };
+		AC040EFC229FAD2400788F67 /* NQMovieViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC040EFB229FAD2400788F67 /* NQMovieViewModel.m */; };
+		AC040F0922A0D4D600788F67 /* ModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AC040F0522A0D4D600788F67 /* ModelBase.m */; };
+		AC040F0A22A0D4D600788F67 /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC040F0622A0D4D600788F67 /* MovieModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C32C0BD246E66B0CBF81E5D /* Pods-NQSMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NQSMVVMDemo.debug.xcconfig"; path = "Target Support Files/Pods-NQSMVVMDemo/Pods-NQSMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AC040ED3229F68A400788F67 /* NQSMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NQSMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC040ED6229F68A400788F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC040ED7229F68A400788F67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC040ED9229F68A400788F67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC040EDA229F68A400788F67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC040EDD229F68A400788F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC040EDF229F68A600788F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC040EE2229F68A600788F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC040EE4229F68A600788F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC040EE5229F68A600788F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC040EF0229F7C4A00788F67 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		AC040EF1229F7C4A00788F67 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		AC040EF4229FAA7D00788F67 /* NQMoveCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NQMoveCell.h; sourceTree = "<group>"; };
+		AC040EF5229FAA7D00788F67 /* NQMoveCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NQMoveCell.m; sourceTree = "<group>"; };
+		AC040EF6229FAA7D00788F67 /* NQMoveCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NQMoveCell.xib; sourceTree = "<group>"; };
+		AC040EFA229FAD2400788F67 /* NQMovieViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NQMovieViewModel.h; sourceTree = "<group>"; };
+		AC040EFB229FAD2400788F67 /* NQMovieViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NQMovieViewModel.m; sourceTree = "<group>"; };
+		AC040F0522A0D4D600788F67 /* ModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBase.m; sourceTree = "<group>"; };
+		AC040F0622A0D4D600788F67 /* MovieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieModel.m; sourceTree = "<group>"; };
+		AC040F0722A0D4D600788F67 /* MovieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
+		AC040F0822A0D4D600788F67 /* ModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBase.h; sourceTree = "<group>"; };
+		E59AB8FE316B090251B80051 /* Pods-NQSMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NQSMVVMDemo.release.xcconfig"; path = "Target Support Files/Pods-NQSMVVMDemo/Pods-NQSMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FE073C21F9AD61CED2A5B713 /* libPods-NQSMVVMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NQSMVVMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC040ED0229F68A400788F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F65C05F6E6113E46D71EDAE /* libPods-NQSMVVMDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9218E024C4D0782CBCA104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE073C21F9AD61CED2A5B713 /* libPods-NQSMVVMDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		764BB3D14CFCE01DB345B591 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C32C0BD246E66B0CBF81E5D /* Pods-NQSMVVMDemo.debug.xcconfig */,
+				E59AB8FE316B090251B80051 /* Pods-NQSMVVMDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC040ECA229F68A400788F67 = {
+			isa = PBXGroup;
+			children = (
+				AC040ED5229F68A400788F67 /* NQSMVVMDemo */,
+				AC040ED4229F68A400788F67 /* Products */,
+				764BB3D14CFCE01DB345B591 /* Pods */,
+				1F9218E024C4D0782CBCA104 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC040ED4229F68A400788F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC040ED3229F68A400788F67 /* NQSMVVMDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC040ED5229F68A400788F67 /* NQSMVVMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC040EEC229F695C00788F67 /* MVVM */,
+				AC040ED6229F68A400788F67 /* AppDelegate.h */,
+				AC040ED7229F68A400788F67 /* AppDelegate.m */,
+				AC040ED9229F68A400788F67 /* ViewController.h */,
+				AC040EDA229F68A400788F67 /* ViewController.m */,
+				AC040EDC229F68A400788F67 /* Main.storyboard */,
+				AC040EDF229F68A600788F67 /* Assets.xcassets */,
+				AC040EE1229F68A600788F67 /* LaunchScreen.storyboard */,
+				AC040EE4229F68A600788F67 /* Info.plist */,
+				AC040EE5229F68A600788F67 /* main.m */,
+			);
+			path = NQSMVVMDemo;
+			sourceTree = "<group>";
+		};
+		AC040EEC229F695C00788F67 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				AC040EFD229FB0C200788F67 /* Model */,
+				AC040EF9229FACF900788F67 /* ViewModel */,
+				AC040EF3229FAA0300788F67 /* View */,
+				AC040EF0229F7C4A00788F67 /* BaseModel.h */,
+				AC040EF1229F7C4A00788F67 /* BaseModel.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		AC040EF3229FAA0300788F67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC040EF4229FAA7D00788F67 /* NQMoveCell.h */,
+				AC040EF5229FAA7D00788F67 /* NQMoveCell.m */,
+				AC040EF6229FAA7D00788F67 /* NQMoveCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC040EF9229FACF900788F67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC040EFA229FAD2400788F67 /* NQMovieViewModel.h */,
+				AC040EFB229FAD2400788F67 /* NQMovieViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC040EFD229FB0C200788F67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC040F0822A0D4D600788F67 /* ModelBase.h */,
+				AC040F0522A0D4D600788F67 /* ModelBase.m */,
+				AC040F0722A0D4D600788F67 /* MovieModel.h */,
+				AC040F0622A0D4D600788F67 /* MovieModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC040ED2229F68A400788F67 /* NQSMVVMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC040EE9229F68A600788F67 /* Build configuration list for PBXNativeTarget "NQSMVVMDemo" */;
+			buildPhases = (
+				6DF6CC198AE085FF2B818E09 /* [CP] Check Pods Manifest.lock */,
+				AC040ECF229F68A400788F67 /* Sources */,
+				AC040ED0229F68A400788F67 /* Frameworks */,
+				AC040ED1229F68A400788F67 /* Resources */,
+				25FD337D2B081A066E9B9E7D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NQSMVVMDemo;
+			productName = NQSMVVMDemo;
+			productReference = AC040ED3229F68A400788F67 /* NQSMVVMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC040ECB229F68A400788F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CQKJ;
+				TargetAttributes = {
+					AC040ED2229F68A400788F67 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AC040ECE229F68A400788F67 /* Build configuration list for PBXProject "NQSMVVMDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC040ECA229F68A400788F67;
+			productRefGroup = AC040ED4229F68A400788F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC040ED2229F68A400788F67 /* NQSMVVMDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC040ED1229F68A400788F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC040EE3229F68A600788F67 /* LaunchScreen.storyboard in Resources */,
+				AC040EF8229FAA7D00788F67 /* NQMoveCell.xib in Resources */,
+				AC040EE0229F68A600788F67 /* Assets.xcassets in Resources */,
+				AC040EDE229F68A400788F67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25FD337D2B081A066E9B9E7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NQSMVVMDemo/Pods-NQSMVVMDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NQSMVVMDemo/Pods-NQSMVVMDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NQSMVVMDemo/Pods-NQSMVVMDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DF6CC198AE085FF2B818E09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NQSMVVMDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC040ECF229F68A400788F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC040F0A22A0D4D600788F67 /* MovieModel.m in Sources */,
+				AC040EDB229F68A400788F67 /* ViewController.m in Sources */,
+				AC040EE6229F68A600788F67 /* main.m in Sources */,
+				AC040EFC229FAD2400788F67 /* NQMovieViewModel.m in Sources */,
+				AC040EF2229F7C4A00788F67 /* BaseModel.m in Sources */,
+				AC040F0922A0D4D600788F67 /* ModelBase.m in Sources */,
+				AC040ED8229F68A400788F67 /* AppDelegate.m in Sources */,
+				AC040EF7229FAA7D00788F67 /* NQMoveCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC040EDC229F68A400788F67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC040EDD229F68A400788F67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC040EE1229F68A600788F67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC040EE2229F68A600788F67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC040EE7229F68A600788F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC040EE8229F68A600788F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC040EEA229F68A600788F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C32C0BD246E66B0CBF81E5D /* Pods-NQSMVVMDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NQSMVVMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqkj.test.NQSMVVMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC040EEB229F68A600788F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59AB8FE316B090251B80051 /* Pods-NQSMVVMDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NQSMVVMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqkj.test.NQSMVVMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC040ECE229F68A400788F67 /* Build configuration list for PBXProject "NQSMVVMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC040EE7229F68A600788F67 /* Debug */,
+				AC040EE8229F68A600788F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC040EE9229F68A600788F67 /* Build configuration list for PBXNativeTarget "NQSMVVMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC040EEA229F68A600788F67 /* Debug */,
+				AC040EEB229F68A600788F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC040ECB229F68A400788F67 /* Project object */;
+}

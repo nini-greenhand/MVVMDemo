@@ -1,0 +1,6 @@
+module Pods_NQSMVVMDemo {
+  umbrella header "Pods-NQSMVVMDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
